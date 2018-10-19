@@ -1,0 +1,91 @@
+{
+  "configs": [
+    {
+      "server": "207.246.125.71",
+      "server_port": 8989,
+      "password": "zzs280017",
+      "method": "rc4-md5",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "ipv4",
+      "timeout": 5
+    },
+    {
+      "server": "2001:19f0:5:29bf:5400:01ff:fe52:6a50",
+      "server_port": 8989,
+      "password": "zzs280017",
+      "method": "rc4-md5",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "ipv6",
+      "timeout": 5
+    },
+    {
+      "server": "167.99.175.243",
+      "server_port": 8989,
+      "password": "zzs280017",
+      "method": "chacha20",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "DO-SFO4",
+      "timeout": 5
+    },
+    {
+      "server": "2604:a880:2:d0::2007:6001",
+      "server_port": 8888,
+      "password": "123456",
+      "method": "chacha20",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "DO-SFO6",
+      "timeout": 5
+    },
+    {
+      "server": "jp.a.cloudss.win",
+      "server_port": 19243,
+      "password": "Yu98594939",
+      "method": "rc4-md5",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "",
+      "timeout": 5
+    }
+  ],
+  "strategy": null,
+  "index": 3,
+  "global": true,
+  "enabled": true,
+  "shareOverLan": true,
+  "isDefault": false,
+  "localPort": 1080,
+  "pacUrl": null,
+  "useOnlinePac": false,
+  "secureLocalPac": true,
+  "availabilityStatistics": false,
+  "autoCheckUpdate": true,
+  "checkPreRelease": false,
+  "isVerboseLogging": false,
+  "logViewer": {
+    "topMost": false,
+    "wrapText": false,
+    "toolbarShown": false,
+    "Font": "Consolas, 8pt",
+    "BackgroundColor": "Black",
+    "TextColor": "White"
+  },
+  "proxy": {
+    "useProxy": false,
+    "proxyType": 0,
+    "proxyServer": "",
+    "proxyPort": 0,
+    "proxyTimeout": 3
+  },
+  "hotkey": {
+    "SwitchSystemProxy": "",
+    "SwitchSystemProxyMode": "",
+    "SwitchAllowLan": "",
+    "ShowLogs": "",
+    "ServerMoveUp": "",
+    "ServerMoveDown": ""
+  }
+}
