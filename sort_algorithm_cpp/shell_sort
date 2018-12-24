@@ -1,0 +1,18 @@
+void shell_sort(const int start, const int end) {
+    int increment = end - start + 1;    //初始化划分增量
+    int temp{ 0 };
+    do {    //每次减小增量，直到increment = 1
+        increment = increment / 3 + 1;
+        for (int i = start + increment; i <= end; ++i) {    //对每个划分进行直接插入排序
+            if (numbers[i - increment] > numbers[i]) {
+                temp = numbers[i];
+                int j = i - increment;
+                do {    //移动元素并寻找位置
+                    numbers[j + increment] = numbers[j];
+                    j -= increment;
+                } while (j >= start && numbers[j] > temp);
+                numbers[j + increment] = temp;  //插入元素
+            }
+        }
+    } while (increment > 1);
+}
